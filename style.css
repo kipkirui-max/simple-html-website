@@ -12,7 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #ff6600;
+    background-color: white;
     padding: 10px 30px;
   }  
   
@@ -34,13 +34,12 @@
   .nav-links a {
     text-decoration: none;
     color: black;
-    font-weight: bold;
     padding: 8px 12px;
     transition: background-color 0.3s ease;
   }
   
   .nav-links a:hover {
-    background-color: #555;
+    background-color:white;
     border-radius: 4px;
   }
   .hero-btn::after {
@@ -57,7 +56,7 @@
   
   .hero {
     /* background: url('logo.jpg') no-repeat center center/cover; */
-    background-color: #333;
+    background-color: navy;
     height: 90vh;
     display: flex;
     align-items: center;
@@ -81,7 +80,8 @@
     margin-bottom: 30px;
   }
   
-  .hero-btn {
+  .hero-btn{
+    background-color:#ff6600 ;
     text-decoration: none;
     background-color: #ff6600;
     color: white;
@@ -136,7 +136,7 @@
 .about-button {
   display: inline-block;
   margin-top: 20px;
-  border: black 5px dotted;
+  border: black 2px solid;
     text-decoration: none;
     background-color: #ff6600;
     color: white;
@@ -146,7 +146,7 @@
     transition: background-color 0.3s ease;
 }
 .about-button:hover {
-  background-color: black;
+  background-color: rgb(141, 121, 121);
 }
 
 /* Responsive styles for tablets and phones */
@@ -201,3 +201,179 @@
     padding: 10px 20px;
   }
 }
+
+/* data section */
+
+#data-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #855e5e;
+}
+
+#data-table {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 800px;
+  border-collapse: collapse;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#data-table th,
+#data-table td {
+  border: 1px solid #ccc;
+  padding: 12px 16px;
+  text-align: left;
+}
+
+#data-table th {
+  background-color: #ff6600;
+  color: white;
+}
+
+#data-table tr:nth-child(even) {
+  background-color: white;
+}
+.Service-btn{
+ background-color:#ff6600 ;
+    text-decoration: none;
+    background-color: #ff6600;
+    color: white;
+    padding: 2px 5px;
+    font-size: 1rem;
+    border:0;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+  }
+  
+  .Service-btn:hover {
+    background-color: #1b1714;
+}
+body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right,(225, 12%, 93%), #2a5298);
+      color: white;
+    }
+
+    .navbar {
+      padding: 15px;
+      background-color: rgba(0, 0, 0, 0.3);
+      text-align: center;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .Service-btn {
+      margin: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      background-color: #00bcd4;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .Service-btn:hover {
+      background-color: #008c9e;
+      transform: scale(1.05);
+    }
+
+    #services {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    #services h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      color: #ffffff;
+    }
+
+    #data-table {
+      margin: auto;
+      border-collapse: collapse;
+      background-color: rgba(255, 255, 255, 0.9);
+      color: #000;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    #data-table th,
+    #data-table td {
+      padding: 12px 20px;
+      border: 1px solid #ccc;
+    }
+
+    #data-table th {
+      background-color: #1e3c72;
+      color: white;
+    }
+
+    /* Contact section */
+    .contact-container {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 30px 40px;
+      margin: 40px auto;
+      border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+      text-align: center;
+      max-width: 400px;
+      color: white;
+    }
+
+    .contact-container h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .social-links {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .social-links a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      border-radius: 12px;
+      padding: 12px 18px;
+      transition: 0.3s ease;
+      background: rgba(255, 255, 255, 0.15);
+    }
+
+    .social-links a:hover {
+      background: rgba(255, 255, 255, 0.3);
+      transform: scale(1.05);
+    }
+
+    .social-links i {
+      margin-right: 10px;
+      font-size: 20px;
+    }
+
+    @media (max-width: 600px) {
+      .Service-btn {
+        width: 90%;
+      }
+
+      #data-table {
+        width: 100%;
+        font-size: 14px;
+      }
+
+      .contact-container {
+        width: 90%;
+        padding: 20px;
+      }
+    }
+    
+
+
+
